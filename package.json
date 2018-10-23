@@ -1,0 +1,35 @@
+{
+  "name": "content-rating-api",
+  "version": "1.0.0",
+  "description": "API to manage user ratings for a content",
+  "main": "src/service.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushmaMurthy/content-rating-api.git"
+  },
+  "keywords": [
+    "RESTAPI"
+  ],
+  "author": "Sushma Murthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushmaMurthy/content-rating-api/issues"
+  },
+  "homepage": "https://github.com/SushmaMurthy/content-rating-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-config-prettier": "^2.3.0"
+  }
+}
